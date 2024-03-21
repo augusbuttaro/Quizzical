@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Question from './active-components/question'
+import Question from 'C:/Users/Usuario/Desktop/Projects/Quizzical/quizzical/src/app-components/active-components/question.jsx'
 
 function Active(props) {
     const [apiQuestions, setApiQuestions] = useState([])
