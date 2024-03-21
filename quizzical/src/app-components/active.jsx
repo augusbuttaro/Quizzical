@@ -21,6 +21,7 @@ function Active(props) {
 
     useEffect(() => {
         if (apiQuestions.length > 0) {
+
             const shuffledQuestions = apiQuestions.map(slot => {
                 let possibleAnswersArr = [...slot.incorrect_answers, slot.correct_answer];
                 return { ...slot, possibleAnswersArr: shuffleArray(possibleAnswersArr) };
